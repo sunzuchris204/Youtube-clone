@@ -1,0 +1,42 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+.container {
+    cursor: pointer;
+    background-color: #2C2C2C;
+    color: white;
+    padding: 20px 40px;
+    display: flex;
+}
+.Header-Logo {
+    margin-left: 20px;
+}
+.Header-inputs {
+    margin-left: 20%;
+}
+.Header-inputs input[type="text"] {
+    background-color: #D3D3D3;
+    height: 30px;
+    width: 500px;
+    padding: 5px;
+    padding-left: 20px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+}
+.Header-inputs input[type="text"]:focus {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid #007bff;
+    outline: none;
+}
+.Header-stream {
+    margin-left: 20%;
+}
+.Header-not {
+    margin-left: 2%;
+}
+.Header-accounts {
+    margin-left: 2%;
+}

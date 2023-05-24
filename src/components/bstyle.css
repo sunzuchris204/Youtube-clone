@@ -1,0 +1,53 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  color: white;
+}
+
+.allbody {
+  display: flex;
+  flex-direction: row;
+}
+
+.LeftNavBar {
+  width: 20%;
+  padding: 10px;
+  background-color: #2C2C2C;
+}
+
+.home {
+  padding: 10px;
+  background-color: #2C2C2C;
+  display: flex;
+  align-items: center;
+}
+
+.home:focus {
+  background-color: #333333;
+}
+
+.home h3 {
+  font-size: 15px;
+}
+
+.rightBody {
+  width: 80%;
+  background-color: #D3D3D3;
+}
+
+.all {
+  display: inline-block;
+  padding: 10px;
+  background-color: #333333;
+  align-items: center;
+  
+}
+.all h3 {
+  padding: 0px 10px;
+  font-weight: bold;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+}
